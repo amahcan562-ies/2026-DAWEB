@@ -1,7 +1,7 @@
 services:
   galeria:
     container_name: test
-    image:  test:latest
+    image:  andresinii/test:latest
     ports:
       - 80:5000
     restart: always
